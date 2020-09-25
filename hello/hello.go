@@ -1,5 +1,5 @@
 package hello
 
 func GetResult() int {
-	return 123
+	              return 123
 }
