@@ -33,3 +33,5 @@ jobs:
           uses: golangci/golangci-lint-action@v2
           with:
             version: v1.29
+            # see https://golangci-lint.run/usage/linters/
+            args: --enable bodyclose,misspell,gocyclo,dupl,gofmt,golint,unconvert,goimports,depguard,gocritic,funlen,interfacer
